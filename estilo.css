@@ -359,6 +359,11 @@ button {
 }
 .fone h4 {
   padding-bottom: 10px;
+  padding-top: 10px;
+}
+.fone a {
+  color: #fff;
+  font-size: 16px;
 }
 .mobi {
   width: 150px;
@@ -412,4 +417,50 @@ button {
   padding-top: 60px;
   font-size: 12px;
   color: #fff;
+}
+.contactLogin {
+  height: 100%;
+}
+.contact1 img {
+  width: 100%;
+  height: 100%;
+}
+.contact2 {
+  position: absolute;
+  z-index: 1001;
+  top: 30%;
+  padding-left: 180px;
+}
+.contact2 h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.contact2 form {
+  gap: 20px;
+}
+.contact2 input {
+  display: block;
+  width: 500px;
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #f8c65a;
+}
+#connect {
+  display: inline;
+  width: 20px;
+  background-color: #02033b;
+  color: #fdb235;
+  font-size: 16px;
+}
+
+.contact2 button {
+  border-radius: 40px;
+  padding: 10px 20px;
+  background: #6fb6f8;
+  border: none;
+  color: #fff;
+  margin: 20px 0;
+  align-items: end;
 }
